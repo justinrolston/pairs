@@ -2,11 +2,10 @@ language: node_js
 node_js:
   - "0.10"
 before_install:
-  - "curl -L http://git.io/3l-rRA | /bin/sh"
+  - "curl https://install.meteor.com/ | sh"
 services:
   - mongodb
-env:
-  - LAIKA_OPTIONS="-t 5000"
+#env:
 
 #sudo: required
 #install: curl https://install.meteor.com/ | sh
